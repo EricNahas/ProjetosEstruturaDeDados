@@ -25,13 +25,13 @@ int main(int argc, char** argv)
 	
 	
 	for (int i = 0; i < frase.size(); i++) {
-		gotoxy(60, 0);
+		gotoxy(60, 5);
 		cout << frase;
 		f2.replace(i, 1, " ");
-		gotoxy(60, 0);
+		gotoxy(60, 5);
 		cout << f2;
 		
-		for (int j = 1; j <= 20; j++) {
+		for (int j = 5; j <= 20; j++) {
 			gotoxy(60 + i, j);
 			cout << frase[i] << endl;
 			Sleep(50);
