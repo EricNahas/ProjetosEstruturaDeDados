@@ -132,6 +132,9 @@ int main(int argc, char** argv)
 	
 	string Nome, Telefone, Email;
 	int DtNasc;
+	int MediaIdade = 0;
+	int QtIdade = 0;
+	int d = 0;
 	
 	for (int x = 0; x < 5; x++) {
 		
@@ -152,6 +155,7 @@ int main(int argc, char** argv)
 		cin >> Telefone;
 		arrayC[x].setTelefone(Telefone);
 		
+		MediaIdade += arrayC[x].Idade();;
 	}
 	
 	for (int y = 0; y < 5; y++) {
@@ -163,6 +167,39 @@ int main(int argc, char** argv)
 		cout << "-------------------------" << endl;
 	}
 	
+	cout << "A média é: " << MediaIdade/5 << endl;
+	d = arrayC[0].Idade();
+		
+	for (int w = 0; w < 5; w++) {
+		if (arrayC[w].Idade() > MediaIdade/5) {
+			cout << arrayC[w].getNome() << " tem idade acima da média." << endl;
+		}
+		
+		if(arrayC[w].Idade() >= 18)
+		{
+			cout << arrayC[w].getNome() << " é maior de idade." << endl;
+			QtIdade++;
+		}
+		
+		if(arrayC[w].Idade() >= d)
+		{
+		    d = arrayC[w].Idade();
+		}
+		
+	}
+	
+	for (int z = 0; z < 5; z++)
+	{
+	    if (arrayC[z].Idade() == d) {
+	        cout << arrayC[z].getNome() << " tem a maior idade." << endl;
+	        cout << "------------------------------------" << endl;
+	        cout << arrayC[z].getEmail() << endl;
+	        cout << arrayC[z].getTelefone() << endl;
+	        cout << "------------------------------------" << endl;
+	    }
+	}
+	
+	cout << QtIdade << " é a quantidade de maior(es) de idade." << endl;
 	
 	return 0;
 }
