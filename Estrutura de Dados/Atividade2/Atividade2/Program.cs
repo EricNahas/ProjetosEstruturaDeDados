@@ -290,9 +290,36 @@ do
 
         case 9:
             int idAluno9;
+            bool mostraNome = false;
+            int qtdCursos = 0;
+            
             Console.WriteLine("Digite o ID do aluno");
             idAluno9 = int.Parse(Console.ReadLine());
             Aluno al9 = new Aluno(idAluno9, "", -1);
+
+            Curso[] x = teste.getCurso();
+
+            //Aqui começa o for
+            
+            Disciplina[] y = x[].getDisciplina();
+            Aluno[] z = y[].getAlunos();
+            if(z[].getID() == al9.getID() && mostraNome == false) 
+            {
+                z[].getName();
+                x[].getDescricao();
+            }
+            else if (z[].getID() == al9.getID()) 
+            {
+                y[].getDescricao();
+                qtdeCursos++;
+            }
+
+            //Aqui fecha o for
+
+            if(qtdeCursos == 0) 
+            {
+                //Aqui escrevemos caso o aluno não esteja em nenhuma disciplina
+            }
 
             break;
 
