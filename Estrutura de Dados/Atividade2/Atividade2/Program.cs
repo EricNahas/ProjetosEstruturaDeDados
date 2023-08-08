@@ -292,7 +292,7 @@ do
             int idAluno9;
             bool mostraNome = false;
             int qtdCursos = 0;
-            
+
             Console.WriteLine("Digite o ID do aluno");
             idAluno9 = int.Parse(Console.ReadLine());
             Aluno al9 = new Aluno(idAluno9, "", -1);
@@ -300,25 +300,37 @@ do
             Curso[] x = teste.getCurso();
 
             //Aqui começa o for
-            
-            Disciplina[] y = x[].getDisciplina();
-            Aluno[] z = y[].getAlunos();
-            if(z[].getID() == al9.getID() && mostraNome == false) 
-            {
-                z[].getName();
-                x[].getDescricao();
-            }
-            else if (z[].getID() == al9.getID()) 
-            {
-                y[].getDescricao();
-                qtdeCursos++;
-            }
 
-            //Aqui fecha o for
-
-            if(qtdeCursos == 0) 
+            for(int i = 0; i < x.Length; i++)
             {
-                //Aqui escrevemos caso o aluno não esteja em nenhuma disciplina
+                Disciplina[] y = x[i].getDisciplina();
+
+                for (int j = 0; j < y.Length; j++)
+                {
+                    Aluno[] z = y[j].getAlunos();
+
+                    for (int k = 0; k < z.Length; k++) 
+                    {
+                        if (z[k].getID() == al9.getID() && mostraNome == false)
+                        {
+                            Console.WriteLine("Aluno: ");
+                            Console.WriteLine(z[k].getName());
+                            Console.WriteLine("Curso: ");
+                            Console.WriteLine(x[i].getDescricao());
+                            mostraNome= true;
+                        }
+                        if (z[k].getID() == al9.getID())
+                        {
+                            Console.WriteLine("Disciplina: ");
+                            Console.WriteLine(y[j].getDescricao());
+                            qtdCursos++;
+                        }
+                    }
+                }
+            }
+            if (qtdCursos == 0)
+            {
+                Console.WriteLine("Este aluno não está matriculado em nenhuma disciplina!");
             }
 
             break;
