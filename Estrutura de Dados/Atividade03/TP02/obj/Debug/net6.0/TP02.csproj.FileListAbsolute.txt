@@ -1,0 +1,15 @@
+D:\User\Desktop\TESTE VS\TP02\TP02\bin\Debug\net6.0\TP02.exe
+D:\User\Desktop\TESTE VS\TP02\TP02\bin\Debug\net6.0\TP02.deps.json
+D:\User\Desktop\TESTE VS\TP02\TP02\bin\Debug\net6.0\TP02.runtimeconfig.json
+D:\User\Desktop\TESTE VS\TP02\TP02\bin\Debug\net6.0\TP02.dll
+D:\User\Desktop\TESTE VS\TP02\TP02\bin\Debug\net6.0\TP02.pdb
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.csproj.AssemblyReference.cache
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.AssemblyInfoInputs.cache
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.AssemblyInfo.cs
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.csproj.CoreCompileInputs.cache
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.dll
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\refint\TP02.dll
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.pdb
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\TP02.genruntimeconfig.cache
+D:\User\Desktop\TESTE VS\TP02\TP02\obj\Debug\net6.0\ref\TP02.dll
