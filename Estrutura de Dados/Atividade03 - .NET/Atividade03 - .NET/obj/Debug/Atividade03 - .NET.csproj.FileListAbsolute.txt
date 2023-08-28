@@ -1,0 +1,11 @@
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\bin\Debug\Atividade03__.NET.exe.config
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\bin\Debug\Atividade03__.NET.exe
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\bin\Debug\Atividade03__.NET.pdb
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03 - .NET.csproj.AssemblyReference.cache
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03 - .NET.csproj.SuggestedBindingRedirects.cache
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03__.NET.Form1.resources
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03__.NET.Properties.Resources.resources
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03 - .NET.csproj.GenerateResource.cache
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03 - .NET.csproj.CoreCompileInputs.cache
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03__.NET.exe
+D:\User\Desktop\TESTE VS\Atividade03 - .NET\Atividade03 - .NET\obj\Debug\Atividade03__.NET.pdb
