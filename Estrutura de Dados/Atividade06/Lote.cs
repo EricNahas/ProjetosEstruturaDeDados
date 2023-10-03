@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Atividade06
 {
     internal class Lote
     {
@@ -15,9 +15,9 @@ namespace ConsoleApp1
         public int Qtde { get => qtde; set => qtde = value; }
         public DateTime Venc { get => venc; set => venc = value; }
 
-        public Lote() 
+        public Lote()
         {
-            
+
         }
 
         public Lote(int id, int qtde, DateTime venc)
@@ -27,9 +27,9 @@ namespace ConsoleApp1
             Venc = venc;
         }
 
-        public string toString()
+        public override string ToString()
         {
-            return this.id + " - " + this.qtde + " - " + this.venc;
+            return "ID: " + this.id + " - Disponíveis: " + this.qtde + " - Dt. Venc.: " + this.venc.ToShortDateString();
         }
     }
 }

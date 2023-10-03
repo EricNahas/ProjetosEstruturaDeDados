@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Atividade06
 {
     internal class Medicamento
     {
@@ -15,10 +15,11 @@ namespace ConsoleApp1
         public int Id { get => id; set => id = value; }
         public string Nome { get => nome; set => nome = value; }
         public string Laboratorio { get => laboratorio; set => laboratorio = value; }
+        internal Queue<Lote> Lotes { get => lotes; set => lotes = value; }
 
-        public Medicamento() 
+        public Medicamento()
         {
-            this.lotes = new Queue<Lote>();
+            this.Lotes = new Queue<Lote>();
         }
 
         public Medicamento(int id, string nome, string laboratorio)
@@ -26,14 +27,14 @@ namespace ConsoleApp1
             Id = id;
             Nome = nome;
             Laboratorio = laboratorio;
-            this.lotes = new Queue<Lote>();
+            this.Lotes = new Queue<Lote>();
         }
 
         public int qtdeDisponivel()
         {
             int retorno = 0;
 
-            foreach (Lote lote in this.lotes)
+            foreach (Lote lote in this.Lotes)
             {
                 retorno += lote.Qtde;
             }
@@ -43,7 +44,7 @@ namespace ConsoleApp1
 
         public void comprar(Lote lote)
         {
-            this.lotes.Enqueue(lote);
+            this.Lotes.Enqueue(lote);
         }
 
         public bool vender(int qtde)
@@ -56,13 +57,26 @@ namespace ConsoleApp1
             }
             else
             {
-                this.lotes
+                foreach(Lote x in this.Lotes.ToList())
+                {
+                    if (qtde >= x.Qtde)
+                    {
+                        qtde -= x.Qtde;
+                        Lotes.Dequeue();
+                    }
+                    else 
+                    {
+                        x.Qtde -= qtde;
+                        qtde = 0;
+                        break;
+                    }
+                }
             }
 
             return retorno;
         }
 
-        public string toString()
+        public override string ToString()
         {
             return this.id + " - " + this.nome + " - " + this.laboratorio + " - " + qtdeDisponivel() + " disponíveis";
         }
@@ -71,7 +85,7 @@ namespace ConsoleApp1
         {
             bool retorno = false;
 
-            foreach(Lote lote in this.lotes)
+            foreach (Lote lote in this.Lotes)
             {
                 if (lote.Id.Equals(((Lote)obj).Id))
                 {
