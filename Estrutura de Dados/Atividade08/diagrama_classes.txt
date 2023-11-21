@@ -1,0 +1,73 @@
++------------------------+
+|       Aeroporto        |
++------------------------+
+| - id: int              |
+| - nome: string         |
+| - pilhaVeiculos: Stack<Veiculo> |
++------------------------+
+| + Id                   |
+| + Nome                 |
+| + PilhaVeiculos        |
+| + Aeroporto(id, nome)  |
+| + mostraGaragem()      |
++------------------------+
+
+
++------------------------+
+|       Fretamento       |
++------------------------+
+| - viagens: List<Viagem>|
+| - aeroportos: List<Aeroporto> |
+| - garagem: Garagem     |
+| - jornada: bool        |
++------------------------+
+| + Viagens              |
+| + Aeroportos           |
+| + Garagem              |
+| + Jornada              |
+| + Fretamento()         |
+| + iniciaJornada()      |
+| + encerraJornada()     |
+| + permiteViagem()      |
+| + procuraAeroporto()   |
+| + qtdViagemEspecifica()|
+| + listaViagemEspecifica() |
+| + qtdPassageirosViagemEspecifica() |
++------------------------+
+
++------------------------+
+|        Garagem         |
++------------------------+
+| - listaVeiculo: List<Veiculo> |
++------------------------+
+| + ListaVeiculo         |
++------------------------+
+
+
++------------------------+
+|        Veiculo         |
++------------------------+
+| - id: int              |
+| - qtdLotacao: int      |
+| - qtdViagem: int       |
++------------------------+
+| + Id                   |
+| + QtdLotacao           |
+| + QtdViagem            |
+| + Veiculo(id, qtdLotacao) |
++------------------------+
+
++------------------------+
+|        Viagem          |
++------------------------+
+| - aeroportoSaida:      |
+|     Aeroporto          |
+| - aeroportoChegada:    |
+|     Aeroporto          |
+| - veiculo: Veiculo     |
++------------------------+
+| + AeroportoSaida       |
+| + AeroportoChegada     |
+| + Veiculo              |
+| + Viagem(aeroportoSaida, aeroportoChegada, veiculo) |
++------------------------+
