@@ -1,0 +1,15 @@
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\bin\Debug\net6.0\Atividade2.exe
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\bin\Debug\net6.0\Atividade2.deps.json
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\bin\Debug\net6.0\Atividade2.runtimeconfig.json
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\bin\Debug\net6.0\Atividade2.dll
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\bin\Debug\net6.0\Atividade2.pdb
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.csproj.AssemblyReference.cache
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.AssemblyInfoInputs.cache
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.AssemblyInfo.cs
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.csproj.CoreCompileInputs.cache
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.dll
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\refint\Atividade2.dll
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.pdb
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\Atividade2.genruntimeconfig.cache
+D:\User\Desktop\TESTE VS\Atividade2\Atividade2\obj\Debug\net6.0\ref\Atividade2.dll
